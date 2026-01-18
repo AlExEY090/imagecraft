@@ -3,7 +3,7 @@
 
 #include "bmpreader.h"
 #include <time.h>
-
+//1
 struct matrixFilter {
     int size;
     float *matrix;

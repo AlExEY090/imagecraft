@@ -3,7 +3,7 @@
 #include <stdint.h>
 #include <string.h>
 #include "bmpreader.h"
-
+//1
 // Загрузка BMP файла
 struct BMPImage* readBMP(const char* filename) {
     FILE *f = fopen(filename, "rb");

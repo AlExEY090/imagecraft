@@ -10,7 +10,7 @@
 #ifndef M_PI
 #define M_PI 3.14159265358979323846
 #endif
-
+//1
 struct Pixel checkPixel(struct BMPImage *img, int x, int y) {
     int w = img->infoHeader.biWidth;
     int h = abs(img->infoHeader.biHeight);

@@ -5,6 +5,7 @@
 #include <time.h>
 #include "bmpreader.h"
 #include "filter.h"
+//1
 /*
  gcc -o image_processor main.c filter.c bmpreader.c -lm -Wall -Wextra -std=c11
 */

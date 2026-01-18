@@ -10,6 +10,7 @@
 #include <stdint.h>
 
 #pragma pack(push,1)
+//1
 struct BMPFileHeader{
     uint16_t bfType;      // Отметка "BM" (0x4D42)
     uint32_t bfSize;
