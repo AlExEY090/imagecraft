@@ -7,7 +7,7 @@
 #include "filter.h"
 //1
 /*
- gcc -o image_processor main.c filter.c bmpreader.c -lm -Wall -Wextra -std=c11
+ gcc -o image_processor main.c filter.c bmpreader.c -lm
 */
 typedef struct BMPImage* (*SpecialTransform)(struct BMPImage *img, void *params);
 
